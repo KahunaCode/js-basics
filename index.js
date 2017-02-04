@@ -15,7 +15,26 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
-
+var firstName = 'james';
+console.log(firstName);
+var lastName = 'moore';
+console.log(lastName);
+var birthPlace = 'texas';
+console.log(birthPlace);
+var favoriteFood = 'tacos';
+console.log(favoriteFood);
+var bestMovie = 'transformers';
+console.log(bestMovie);
+var favLoveSong = 'hahahaha';
+console.log(favLoveSong);
+var cuteAnimal = 'Todos Santos';
+console.log(cuteAnimal);
+var favColor = 'yellow';
+console.log(favColor);
+var favSneaker = 'trail gloves';
+console.log(favSneaker);
+var coffeeShop = 'green world';
+console.log(coffeeShop);
 
 /**
 * #2
@@ -25,6 +44,27 @@ console.log(pet);
 *
 * Each value should be a Number
 **/
+
+var favoriteNumber = 13;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 'terrible';
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2020;
+console.log(tokyoOlympics);
+var mariahCareyAge = 40;
+console.log(mariahCareyAge);
+var currentTemp = 65;
+console.log(currentTemp);
+var studentsInClass = 12;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 6;
+console.log(currentIphoneModel);
+var shoeSize = 13;
+console.log(shoeSize);
 
 
 /**
@@ -36,6 +76,16 @@ console.log(pet);
 * Each value should be a Boolean
 **/
 
+var likesMcDonalds = true;
+var watchedMrRobot = false;
+var ranMarathon = true;
+var wrestledABear = false;
+var lovesDonuts = false;
+var readHarryPotter = true;
+var sleptInClass = true;
+var drinksCoffee = true;
+var shopsAtWholeFoods = false;
+var ownsRedShoes = false;
 
 /**
 * #4
@@ -46,11 +96,22 @@ console.log(pet);
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
-/*
+
+/**
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
+
+/*
+*Null sets a value for a variable and creates an object. An undefined variable is has no declared values.
+**/
 
 
 /**
@@ -65,7 +126,18 @@ console.log(pet);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
-
+var plateLunch = ['steakPlate', 'tacos', 'brisket', 'fishPlate', 'noodles'];
+console.log(plateLunch);
+var fruitBasket = ['apple', 'pineapple', 'bananna', 'kiwi', 'strawberry'];
+console.log(fruitBasket);
+var westCoast = ['cali', 'oregon', 'washington', 'nevada', 'colorado'];
+console.log(westCoast);
+var lotteryResult = [123, 234, 345, 456, 567];
+console.log(lotteryResult);
+var duets = [['mariah carey', 'steven tyler'], ['sublime', 'blink182'], ['aerosmith', 'metallica']];
+console.log(duets);
+var mixPlate = [12, 'adsf', 555];
+console.log(mixPlate);
 
 /*7
 * Accessing Values in Arrays
@@ -76,6 +148,10 @@ What is the length of this array? Please print the length (a number) to the cons
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+console.log(partyList.length);
+console.log(partyList[0])
+console.log("the position of the " +partyList[4]+" is 4")
 
 
 
@@ -88,11 +164,18 @@ What is the index position of lemon bars? Please print this item to the console.
  xx xx is from xx.
  e.g.
  Usain Bolt is from Jamaica.
- 
+
+
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
+var fullName = firstName + ' ' + lastName
+console.log(fullName)
+var whereFrom = fullName + ' is from ' + birthPlace
+console.log(whereFrom)
+var mariahStory = 'at the age of ' + mariahCareyAge + ' Mariah Carey, wearing her fancy ' + favSneaker + ', sang ' + favLoveSong +' at the ' + coffeeShop +'.'
+console.log(mariahStory)
 
 
 /**
@@ -106,6 +189,18 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
+**/
+
+var num1 = 5
+var num2 = 6
+var sum = num1 + num2
+var difference = num1 - num2
+var product = num1 * num2
+console.log(product)
+var quotient = num1/num2
+console.log(quotient)
+var remainder = num1%num2
+console.log(remainder)
 
 
 
@@ -129,8 +224,22 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?
+**/
+var isStrictlyEqual = 'Tacocat' === 'tacocat';
+console.log(isStrictlyEqual);
+var isLooselyEqual = 'Tacocat' == 'tacocat';
+console.log(isLooselyEqual);
+var sameNum = '5' === 5;
+console.log(sameNum);
+var sameNumba = '5' == 5;
+console.log(sameNumba);
 
-
+var orFirst = 3>2 || 3<1;
+console.log(orFirst);
+var andFirst = 3>2 && 6>3;
+console.log(andFirst);
+var andSecond = 7>2 && 8<5;
+console.log(andSecond);
 
 /**
 * #11
@@ -143,7 +252,14 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
-*
+**/
+var myBox = 13;
+console.log(myBox);
+myBox = 'yellow';
+console.log(myBox);
+myBox = 1.23455;
+console.log(myBox);
+
 
 /**
 * Final Boss 
@@ -155,18 +271,46 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * For example, if the value is `blueberry`, it should return "Today's special blueberry pie."
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.
+**/
 
+function bakePie(ingredient) {
+	return "Today's special " + ingredient + " pie";
+}
 
+/**
+or ...  
+	var myString = "Today's special " + ingredient + " pie";
+	return myString;
+**/
+
+var pieResult = bakePie("blueberry");
+console.log(pieResult);
+
+/**
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
 * For example, if the value is 9, it should return "You jumped 9 feet high!"
 *
 * Declare a variable 'jumpResult' and assign it to the function call.
 * Console.log the variable to see the result.
+**/
+function jump(height) {
+	return "You jumped " + height + " feet high!"
+}
+
+var jumpResult = jump(5);
+console.log(jumpResult);
 
 
+/**
 * Declare a Function named `cook` which a takes three parameters, `ingredient1`, `ingredient2`, `recipeName`.
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook(ingredient1, ingredient2, recipeName) {
+	return ingredient1 + " and " + ingredient2 + " make a Pizza!"
+}
+
+var cooked = cook("Tomatoes", "Cheese", "Pizza");
+console.log(cooked);
